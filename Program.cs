@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-int number = 305419896;
+int number = 65536;
 Console.WriteLine($"Число: {number}");
 Console.WriteLine($"B hex: 0x{number:X8}");
 Console.WriteLine($"Little-endian: {BitConverter.IsLittleEndian}");
